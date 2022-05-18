@@ -2,7 +2,7 @@ inp = int(input("Enter Numeric: "))
 out_str = ''
 string = str(inp)[::-1]
 if len(string) > 4:
-	print('Enter value in 4 digits')
+	print('Enter value in <= 4 digits')
 	exit()
 
 for i in range(len(string)):
